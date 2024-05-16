@@ -1,0 +1,290 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header styles */
+header {
+    background-color: #222;
+    padding: 20px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 500px;
+    height: 500px;
+    margin-right: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 4px 0 0 4px;
+    background-color: #333;
+    color: #fff;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+.featured-products {
+    padding: 50px 0;
+}
+
+.featured-products h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #333;
+    border: 1px solid #444;
+    padding: 20px;
+}
+/* Footer styles */
+footer {
+    background-color: #111;
+    color: #aaa;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.footer-section h2 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    color: #ccc;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: #000;
+    color: #888;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+}
+
+/* Responsive Footer */
+@media screen and (max-width: 768px) {
+    .footer-section {
+        flex-basis: 50%;
+    }
+}
+/* Header styles */
+header {
+    background-color: #222;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+h1 {
+    margin: 0;
+    text-align: right;
+    color: #fff;
+    flex: 1;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the items horizontally */
+}
+
+.search-bar input {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 4px 0 0 4px;
+    background-color: #333;
+    color: #fff;
+}
+
+.search-bar button {
+    padding: 10px 40px; /* Increase padding to make it wider */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+/* Main content styles */
+.hero {
+    background-image: url('file:///C:/Users/Arnav_Manan/Desktop/MY%20WEBPAGE/logo+bg%20images/images%20(1).jpeg'); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    color: #5c89eb;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.hero-content {
+    position: relative; /* Ensure the content stays on top of the background image */
+    z-index: 1; /* Ensure the content stays on top */
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+.product2  {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.product2 {
+    background-color: #333;
+    border: 1px solid #444;
+    padding: 20px;
+}
+.product3 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.product3 {
+    background-color: #333;
+    border: 1px solid #444;
+    padding: 20px;
+}
+.product4 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.product4 {
+    background-color: #333;
+    border: 1px solid #444;
+    padding: 20px;
+}
